@@ -13,6 +13,8 @@
 		95FE01B52473F55B000BA994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95FE01B42473F55B000BA994 /* Assets.xcassets */; };
 		95FE01B82473F55B000BA994 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95FE01B72473F55B000BA994 /* Preview Assets.xcassets */; };
 		95FE01BB2473F55B000BA994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95FE01B92473F55B000BA994 /* LaunchScreen.storyboard */; };
+		95FE01C32473F93F000BA994 /* UIVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FE01C22473F93F000BA994 /* UIVideoPlayer.swift */; };
+		95FE01C52473FA0F000BA994 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FE01C42473FA0F000BA994 /* PlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		95FE01B72473F55B000BA994 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95FE01BA2473F55B000BA994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95FE01BC2473F55C000BA994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95FE01C22473F93F000BA994 /* UIVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVideoPlayer.swift; sourceTree = "<group>"; };
+		95FE01C42473FA0F000BA994 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				95FE01B92473F55B000BA994 /* LaunchScreen.storyboard */,
 				95FE01BC2473F55C000BA994 /* Info.plist */,
 				95FE01B62473F55B000BA994 /* Preview Content */,
+				95FE01C22473F93F000BA994 /* UIVideoPlayer.swift */,
+				95FE01C42473FA0F000BA994 /* PlayerView.swift */,
 			);
 			path = VideoBasedOnboardingScreen;
 			sourceTree = "<group>";
@@ -146,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95FE01C32473F93F000BA994 /* UIVideoPlayer.swift in Sources */,
 				95FE01AF2473F55A000BA994 /* AppDelegate.swift in Sources */,
 				95FE01B12473F55A000BA994 /* SceneDelegate.swift in Sources */,
+				95FE01C52473FA0F000BA994 /* PlayerView.swift in Sources */,
 				95FE01B32473F55A000BA994 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
